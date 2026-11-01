@@ -123,27 +123,6 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
 }
-.skills-grid {
-    display: grid;
-    /* This automatically creates columns that are at least 150px wide and fit the screen size */
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.skill-card {
-    background: #007bff;
-    color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
-}
 
 /* Optional hover effect */
 .skill-card:hover {
