@@ -219,3 +219,94 @@ body.dark-theme .bg-light {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
+/* Projects Grid & Cards */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body.dark-theme .project-card {
+    background: #242424;
+    color: #ffffff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.project-links {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.btn-small {
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+/* Education Section */
+.education-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.education-card {
+    background: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 1.2rem;
+    border-radius: 4px;
+}
+
+body.dark-theme .education-card {
+    background: #1e1e1e;
+}
+
+.education-card .institute {
+    font-weight: 600;
+}
+
+.education-card .date {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+/* Resume Download Button */
+.resume-download-wrapper {
+    margin-top: 2rem;
+}
+
+.btn-resume {
+    background: #28a745;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+}
+
+.btn-resume:hover {
+    background: #218838;
+}
