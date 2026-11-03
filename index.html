@@ -24,7 +24,7 @@
     <!-- Hero / Home Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <img src="C:\Users\kapad\OneDrive\Desktop\profile.jpeg" alt="Profile Picture" class="profile-img">
+            <img src= "C:\Users\kapad\OneDrive\Desktop\profile.jpeg" alt="Profile Picture" class="profile-img">
             <h1>Hi, I'm <span class="highlight">Tayyaba kapadewale</span></h1>
             <p>Aspiring Web Developer & Intern</p>
             <a href="#contact" class="btn">Get In Touch</a>
@@ -51,18 +51,35 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me for collaborations or inquiries!</p>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations, questions, or just to say hi!</p>
+    
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <form class="contact-form" id="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
             <button type="submit" class="btn">Send Message</button>
         </form>
-    </section>
 
+        <!-- Social Links List -->
+        <div class="social-links">
+            <a href="https://github.com/kapadewaletayyaba-ctrl" target="_blank" class="social-btn">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" class="social-btn">LinkedIn</a>
+            <a href="mailto:kapadewaletayyaba@gmail.com" class="social-btn">Email</a>
+        </div>
+    </div>
+  </section>
+    
+    
 <!-- Projects Section -->
 <section id="projects" class="section bg-light">
     <h2>Featured Projects</h2>
